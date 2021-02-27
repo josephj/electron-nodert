@@ -1,0 +1,16 @@
+{
+  "name": "nodert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nodert-win10-rs4/windows.devices.portable": "^0.4.4",
+    "@nodert-win10-rs4/windows.storage": "^0.4.4"
+  }
+}

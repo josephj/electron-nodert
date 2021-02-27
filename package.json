@@ -1,0 +1,31 @@
+{
+  "name": "electron-nodert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron src/main.js",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephj/electron-nodert.git"
+  },
+  "author": "Joseph Chiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephj/electron-nodert/issues"
+  },
+  "homepage": "https://github.com/josephj/electron-nodert#readme",
+  "dependencies": {
+    "@nodert-win10-rs4/windows.devices.enumeration": "^0.4.4",
+    "@nodert-win10-rs4/windows.devices.portable": "^0.4.4",
+    "@nodert-win10-rs4/windows.foundation.collections": "^0.4.4",
+    "@nodert-win10-rs4/windows.storage": "file:./packages/nodert/windows.storage",
+    "@nodert-win10-rs4/windows.storage.search": "^0.4.4",
+    "drivelist": "^9.2.4",
+    "electron": "^11.3.0",
+    "electron-builder": "^22.9.1"
+  }
+}
