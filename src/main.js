@@ -7,6 +7,7 @@ function createWindow () {
     width: 800,
     height: 600,
     webPreferences: {
+      enableRemoteModule: true,
       nodeIntegration: true
     }
   })
@@ -17,6 +18,8 @@ function createWindow () {
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 }
+
+app.allowRendererProcessReuse = false;
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
