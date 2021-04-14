@@ -52,6 +52,13 @@
   dependencies:
     nan latest
 
+"@nodert-win10-rs4/windows.storage.bulkaccess@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@nodert-win10-rs4/windows.storage.bulkaccess/-/windows.storage.bulkaccess-0.4.4.tgz#b56b86728bc7ef3c67edc7ab48248e747fb8dfde"
+  integrity sha512-KS9h2JUbQq3MIrLB+VEmOdIUYjJbI6dezkSp4havUexCtBbTfqTIlIo2GL1yGyoVAB7WgPm4s/k8Cytp6mGnwQ==
+  dependencies:
+    nan latest
+
 "@nodert-win10-rs4/windows.storage.fileproperties@^0.4.4":
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/@nodert-win10-rs4/windows.storage.fileproperties/-/windows.storage.fileproperties-0.4.4.tgz#dbea20d6b664f3fc6a242544d69559b61d44e2db"
@@ -447,6 +454,11 @@ crypto-random-string@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
+
+date-fns@^2.20.3:
+  version "2.20.3"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.20.3.tgz#5a28718edb95a80db96187b25340959867d36bc8"
+  integrity sha512-BbiJSlfmr1Fnfi1OHY8arklKdwtZ9n3NkjCeK8G9gtEe0ZSUwJuwHc6gYBl0uoC0Oa5RdpJV1gBBdXcZi8Efdw==
 
 debug@^2.6.9:
   version "2.6.9"

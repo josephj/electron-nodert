@@ -23,8 +23,10 @@
     "@nodert-win10-rs4/windows.devices.portable": "^0.4.4",
     "@nodert-win10-rs4/windows.foundation.collections": "^0.4.4",
     "@nodert-win10-rs4/windows.storage": "file:./packages/nodert/windows.storage",
+    "@nodert-win10-rs4/windows.storage.bulkaccess": "^0.4.4",
     "@nodert-win10-rs4/windows.storage.fileproperties": "^0.4.4",
     "@nodert-win10-rs4/windows.storage.search": "^0.4.4",
+    "date-fns": "^2.20.3",
     "electron": "^11.3.0",
     "electron-builder": "^22.9.1",
     "jquery": "^3.5.1"
